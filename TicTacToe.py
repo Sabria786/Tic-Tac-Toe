@@ -143,7 +143,7 @@ def check_columns():
     game_still_going = False
   # Return the winner
   if column_1:
-    return board[0]
+    return board[0] 
   elif column_2:
     return board[1]
   elif column_3:
